@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/templates/styles.css">
+        <title>Advance Search</title>
+    </head>
+    <body>
+        <div id="div_header">
+            <table>
+                <tr>
+                    <td>
+                        <a href="index.html">Google</a>
+                    </td>
+                    <td>
+                        <a href="images.html">Image Search</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="div_body">
+            <img class="g_logo" src="logo.png"> <span style="color: white; font-family: 'Roboto',sans-serif;">advance</span>
+        </div>
+        <div id="adv_frm">
+            <form action="https://www.google.com/search" method="get" id="form_submit">
+                <div style="white-space: nowrap; font-family: 'Roboto', sans-serif; font-size: 13px;">
+                    <table style="margin:0 auto; width: 50%">
+
+                        <tr>
+                            <td class="td_left">
+                                <div class="left_words dv_inline">
+                                    <label>all these words:</label>
+                                </div>
+                            </td>
+                            <td class="td_middle">
+                                <div class="dv_inline">
+                                    <input name="as_q" type="text" autofocus class="adv_in">
+                                </div>
+                            </td>
+                            <td class="td_right">
+                                <div class="dv_inline">
+                                    <label>type the important words: <span style="font-weight: 600; font-size: 14px;"> tricolor rat terrier</span></label>  
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left">
+                                <div class="left_words dv_inline">
+                                    <label>this exact word or phrase:</label>
+                                </div>
+                            </td>
+                            <td class="td_middle">
+                                <div class="dv_inline">
+                                    <input name="as_epq" type="text" class="adv_in"> 
+                                </div>
+                            </td>
+                            <td class="td_right">
+                                <div class="dv_inline">
+                                    <label>Put exact words in qoutes: <span style="font-weight: 600; font-size: 14px;">"rat terrier"</span></label>  
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left">
+                                <div class="left_words dv_inline">
+                                    <label>tany of these words:</label>
+                                </div>
+                            </td>
+                            <td class="td_middle"> 
+                                <div class="dv_inline">
+                                    <input name="as_oq" type="text" class="adv_in"> 
+                                </div>
+                            </td>
+                            <td class="td_right">
+                                <div class="dv_inline">
+                                    <label>Type <span style="font-weight: 600; font-size: 14px;">OR</span>
+                                           between all the words you want 
+                                           <span style="font-weight: 600; font-size: 14px;">miniature OR standard</span></label>  
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="td_left">
+                                <div class="left_words dv_inline">
+                                    <label>none of these words:</label>
+                                </div>
+                            </td>
+                            <td class="td_middle"> 
+                                <div class="dv_inline">
+                                    <input name="as_eq" type="text" class="adv_in"> 
+                                </div>
+                            </td>
+                            <td class="td_right">
+                                <div class="dv_inline">
+                                    <label>Put a minus sign just before words you don't want <span style="font-weight: 600; font-size: 14px;">OR</span>
+                                           -rodent, -"Jack Russell" </label>  
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td> <td></td>
+                            <td class="td_right">
+                                <button form="form_submit" id="adv_submit_btn">Advance Search</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

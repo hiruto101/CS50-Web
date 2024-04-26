@@ -1,0 +1,101 @@
+#div_header {
+    text-align: right;
+}
+#div_header a {
+    color:white;
+}
+.div_body {
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+table, td {
+    border-spacing: 10px;
+    margin-left: auto;
+}
+.s_input {
+    width: 600px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid rgb(54, 53, 53);
+    border-radius: 12px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left_words {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+div {
+    text-align: center;
+}
+body {
+    background-color: rgb(34, 34, 37);
+
+}
+#gug h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color:white;
+}
+
+#adv_frm label {
+    color: white;
+}
+
+.s_btn {
+    padding: 20px;
+}
+
+.s_cbtn {
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+    width: auto;
+    height: 32px;
+    border-radius: 8px;
+}
+
+.dv_inline {
+    display: inline-block;
+    padding: 5px;
+}
+.td_left {
+    text-align: left;
+    width: 15%;
+    color: white;
+}
+
+.td_middle {
+    text-align: center;
+    width: 30%;
+    color: white;
+}
+
+.td_right {
+    text-align: left;
+    width: 25%;
+    color: white;
+}
+.adv_in {
+    width: 600px;
+    height: 25px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(54, 53, 53);
+}
+
+#adv_submit_btn {
+    background-color: #8ab4f8;
+    border-color: #8ab4f8;
+    color: white;
+    height: 30px;
+    min-width: 120px;
+}
+
+.g_logo {
+    height: 100px;
+}
